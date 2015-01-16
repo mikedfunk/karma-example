@@ -14,7 +14,7 @@ This example is for [karma](http://karma-runner.github.io/) with
 * `karma init`. When it asks, specify the spec dir as `spec/**/*Spec.js`
 * in `karma.conf.js` add to the `frameworks` config:
 
-```
+```javascript
 // frameworks to use
 // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
 frameworks: ['browserify', 'jasmine'],
