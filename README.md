@@ -8,7 +8,7 @@ This example is for [karma](http://karma-runner.github.io/) with
 * `./node_modules/karma/bin/karma start`
 
 ## Using karma, jasmine, and browserify-shim in another project
-* `npm init` and hit enter until done
+* if you don't have a `package.json`, `npm init` and hit enter until done
 * `npm install --save-dev browserify-shim jasmine karma-jasmine karma-browserify karma-phantomjs-launcher phantomjs`
 * `jasmine init`
 * `karma init`. When it asks, specify the spec dir as `spec/**/*Spec.js`
