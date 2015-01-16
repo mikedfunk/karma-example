@@ -47,7 +47,7 @@ browserify: {
 
 ```javascript
 "browser": {
-  "add": "./path/to/my/non-commonjs/javascript.js"
+  "mymodulename": "./path/to/my/non-commonjs/javascript.js"
 },
 "browserify-shim": {
   "./path/to/my/non-commonjs/javascript.js": "mymodulename"
