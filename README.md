@@ -11,7 +11,7 @@ This example is for [karma](http://karma-runner.github.io/) with
 * if you don't have a `package.json`, `npm init` and hit enter until done
 * `npm install --save-dev browserify-shim jasmine karma-jasmine karma-browserify karma-phantomjs-launcher phantomjs`
 * `jasmine init`
-* `karma init`. When it asks, specify the spec dir as `spec/**/*Spec.js`
+* `karma init`. When it asks, specify the spec dir as `spec/**/*Spec.js`. Also select `PhantomJS` as the browser.
 * in `karma.conf.js` add to the `frameworks` config:
 
 ```javascript
