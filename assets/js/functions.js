@@ -2,7 +2,7 @@
   'use strict';
 
   /**
-   * add numbers
+   * add two numbers
    * @param {int} number1
    * @param {int} number2
    * @return {int}
@@ -16,4 +16,4 @@
 
   // this is important for browserify-shim to browserify this file
   window.add = Add;
-}());
+})();
