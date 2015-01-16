@@ -1,0 +1,26 @@
+{
+  "name": "karma-example",
+  "version": "1.0.0",
+  "description": "This example is for [karma](http://karma-runner.github.io/) with [jasmine](http://jasmine.github.io/) ,[browserify-shim](https://github.com/thlorenz/browserify-shim) and some non-commonjs javascript.",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikedfunk/karma-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedfunk/karma-example/issues"
+  },
+  "homepage": "https://github.com/mikedfunk/karma-example",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "browserify-shim": "^3.8.2"
+  },
+  "browserify-shim": {
+    "add": "global:Add"
+  }
+}
